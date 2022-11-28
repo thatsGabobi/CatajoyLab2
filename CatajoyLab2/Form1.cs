@@ -55,7 +55,8 @@ namespace CatajoyLab2
         //This will display the topic label and information about me! :)//
         private void btnData_Click(object sender, EventArgs e)
         {
-            string lblTopicName = "The Beach Boi";
+            //changed topic name
+            string lblTopicName = "Son of a Beach";
             pictureBox1.Visible = false;
             lblTopic.Visible = true;
             lblTopic.Text = "My topic is " + lblTopicName +
